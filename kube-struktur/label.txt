@@ -1,0 +1,5 @@
+Kenapa butuh Label? 
+Untuk memberi tanda pada Pod Untuk mengorganisir Pod Memberi informasi tambahan pada Pod 
+Label tidak hanya bisa digunakan pada Pod, 
+tapi pada semua resource di Kubernetes, 
+seperti Replication Controller, Replica Set, Service, dan lain-lain

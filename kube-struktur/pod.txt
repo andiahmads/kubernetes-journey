@@ -1,0 +1,13 @@
+Apa itu Pod? 
+Pod adalah unit terkecil yang bisa di deploy di Kubernetes Cluster 
+Pod berisi satu atau lebih container Secara sederhana 
+Pod adalah aplikasi kita yang running di Kubernetes Cluster
+
+pod tidak bisa running di node berbeda
+
+Kenapa butuh Pod? Kenapa tidak langsung menggunakan Container? 
+kalau lansung menggunakan container, si kube tidak specific menggunakan container a/b
+
+
+Kenapa dalam Pod bisa menjalankan lebih dari satu Container?
+karna pod bisa menjalankan lebih dari 1 container

@@ -1,0 +1,8 @@
+Kapan Menggunakan Namespace? 
+Ketika resources di Kubernetes sudah terlalu banyak Ketika butuh memisahkan resources untuk multi-tenant, 
+team atau environment Nama resources bisa sama jika berapa di namespace yang berbeda
+
+Yang Perlu Diketahui Tentang Namespace 
+Pod dengan nama yang sama boleh berjalan asalkab di Namespace yang berbeda 
+Namespace bukanlah cara untuk mengisolasi resource Walaupun berbeda namespace, 
+pod akan tetap bisa saling berkomunikasi dengan pod lain di namespace yang berbeda

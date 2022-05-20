@@ -1,0 +1,5 @@
+Untuk Apa Annotation? 
+Annotation mirip dengan Label, 
+hanya tidak dapat di filter seperti label 
+Biasanya Annotation digunakan untuk menambahkan informåsi tambahan dalam ukuran besar 
+Annotation bisa menampung informasi sampai 256kb

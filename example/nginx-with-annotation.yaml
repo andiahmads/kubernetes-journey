@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-with-annotation
+  labels:
+    team: bayarind
+    version: 1.0.1
+    environment: development
+  annotations: 
+    description: ini adalah applikasi belajar kubernetes  
+spec: 
+  containers:
+    - name: nginx
+      image: nginx  
+      ports:
+        - containerPort: 80
