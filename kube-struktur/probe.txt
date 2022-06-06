@@ -13,3 +13,11 @@ maka kubelet tidak akan melakukan pengecekan liveness dan readiness.
 Startup probe cocok untuk Pod yang membutuhkan proses startup lama, 
 
 ini dapat digunakan untuk memastikan Pod tidak mati oleh kubelet sebelum selesai berjalan dengan sempurna.
+
+
+
+Konfigurasi Probe initialDelay Seconds , waktu setelah container jalan dan dilakukan pengecekan , default nya 0 
+periodSeconds , seberapa sering pengecekan dilakukan , default nya 10 
+timeoutSeconds , waktu timeout ketika pengecekan gagal , default 1 
+success Threshold , minimum dianggap sukses setelah berstatus failure , default 1 
+failure Threshold , minimum dianggap gagal , default 3
