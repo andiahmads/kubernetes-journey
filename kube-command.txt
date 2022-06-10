@@ -55,10 +55,16 @@ kubectl delete namespace namanamespace
 Menghapus Pod 
 kubectl delete pod namapod 
 kubectl delete pod namapod1 namapod2 namapod3
-
 Menghapus Pod Menggunakan Label 
 kubectl delete pod -l key=value
 
 
 Menghapus Semua Pod di Namespace 
 kubectl delete pod --all --namespace namanamespace
+
+
+ kubectl exec nginx -- env = show env
+
+
+ kubectl get cronjob hello 
+ kubectl get jobs --watch = show list crone
